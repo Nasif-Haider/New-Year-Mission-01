@@ -24,7 +24,7 @@ p {
 
 .new-year {
     margin: 0;
-    padding: 117px 530px 0 530px;
+    padding-top: 177px;
     color: #FFF;
     font-size: 32px;
     text-align: center;
@@ -252,6 +252,8 @@ p {
 .discount-description {
     max-width: 1068px;
     margin: 0 auto 68px;
+    line-height: 32px;
+    font-size: 20px;
 }
 
 .semi-container span {
@@ -360,6 +362,9 @@ p {
 
 .subs-details p {
     margin: 22px 212px 48px 212px;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);
 
 }
 
@@ -387,6 +392,7 @@ p {
 
 /* footer */
 .footer {
+    width: 100%;
     height: 609px;
     background: #070211;
 
@@ -394,6 +400,8 @@ p {
 }
 
 .info-container {
+    width: 1320px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -404,7 +412,6 @@ p {
     font-weight: 500;
     line-height: 40px;
     margin-top: 120px;
-    margin-left: 140px;
 }
 
 .contact {
@@ -413,7 +420,6 @@ p {
     font-weight: 500;
     line-height: 40px;
     margin-top: 120px;
-    margin-right: 290px;
 }
 
 hr {
@@ -431,6 +437,8 @@ hr {
 }
 
 .last-row {
+    width: 1320px;
+    margin: 0 auto;
     display: flex;
     color: #FFF;
     font-size: 24px;
@@ -439,9 +447,7 @@ hr {
 }
 .last-row .res{
     margin-top: 50px;
-    margin-left: 140px;
 }
 .last-row .unsb{
     margin-top: 50px;
-    margin-right: 140px;
 }
