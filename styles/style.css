@@ -70,37 +70,214 @@ p {
 
 .disc-img {
     text-align: center;
+    margin-bottom: 120px;
 }
 
 /* Midnight party image style */
+.party {
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../Assets/Resources/Party-image.png');
+}
 
-.midnight-party {
+.party-container {
+    display: flex;
+}
+
+.greetings h5 {
+    margin: 126px 200px 0 126px;
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
     /* letter-spacing: 7.04px; */
-    width: 1320px;
-    height: 600px;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../Assets/Resources/Party-image.png');
 }
 
-.greetings {
-    margin-bottom: 0;
-}
-
-.p-discription {
-    padding-top: 24px;
+.greetings p {
+    margin: 20px 100px 0 126px;
     width: 697px;
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
 }
 
-.btn {
-    color: #FFF;
-    background: transparent;
+.greetings button {
     font-size: 20px;
+    margin: 48px 100px 0 150px;
+    margin-left: 126px;
+    padding: 15px 35px;
+    color: #FFF;
+    background: fixed;
+    border: 0;
+    text-align: center;
     font-weight: 700;
+}
+
+.party-container .img {
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-left: 0;
+    margin: auto;
+}
+
+/* Perty time, place, date style */
+.party-container {
+    margin: 120px auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+}
+
+.party-info {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.para .info-clr {
+    color: #F00;
+}
+
+.para p {
+    margin: 0px;
+    padding-bottom: 0;
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    /* text-transform: capitalize; */
+}
+
+.para .btn {
+
+    font-size: 20px;
+    margin: 48px 100px 0 150px;
+    padding: 15px 35px;
+    color: #FFF;
+    background: red;
+    border: #FFF;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Best offer styles */
+.best-offer-container {
+    margin: 120px auto;
+    width: 1320px;
+    height: 420px;
+    display: flex;
+    gap: 90px;
+}
+
+.coming-soon .offer-title {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.coming-soon h5 {
+    margin: 0;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.coming-soon p {
+    margin-right: 60px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.best-offer-container .photo {
+    /* margin: auto; */
+    padding: 20px;
+    width: 365px;
+    height: 365px;
+    border: 10px solid #F00;
+    border-radius: 50%;
+}
+
+.last-section {
+    padding-left: 70px;
+    padding-right: 10px;
+}
+
+.last-section .title {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 8px;
+}
+
+.last-section .title-description {
+    width: 300px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.last-section img {
+    width: 140px;
+    height: 140px;
+}
+
+/* Holidays sale Styles */
+
+.holiday-container {
+    margin: auto;
+    text-align: center;
+    width: 1320px;
+    height: 240px;
+}
+
+.functional {
+    margin: 0 auto 16px;
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount {
+    margin: 0 auto 28px;
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.discount-description {
+    max-width: 1068px;
+    margin: 0 auto 68px;
+}
+
+.semi-container span {
+    color: #070211;
+}
+
+.discount-image {
+    display: flex;
+    height: 662px;
+    width: 1320px;
+    background-image: url('../Assets/Resources/red.png'), url(../Assets/Resources/leady.png);
+    background-repeat: no-repeat;
+    background-position: bottom, top right;
+}
+
+.discount-image img {
+    padding-right: 15px;
+    padding-top: 119px;
+    padding-left: 189px;
+    width: 450px;
+    height: 460px;
+}
+.discount-image .percent{
+    width: 220.841px;
+    height: 220.841px;
+    padding-top: 134px;
+    padding-left: 143px;
 }
