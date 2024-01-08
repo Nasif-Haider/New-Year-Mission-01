@@ -322,6 +322,13 @@ p {
     display: flex;
     gap: 24px;
 }
+.shadow{
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+}
+.shadow:hover{
+    transform: scale(1.3);
+    z-index: 3;
+}
 
 /* Subscribe */
 .Subscribe {
